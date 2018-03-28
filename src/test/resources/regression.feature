@@ -27,7 +27,7 @@ Feature: Check Login functionalty
       | Round Trip | 2          | London         | New York    | Economy class  |
       | One Way    | 1          | London         | Paris       | Business class |
       |One Way     |1           |New York        |London       | Business class  |
-      |Round Trip    |3          |Paris        |London       | Business class  |
+      
 
 
 
