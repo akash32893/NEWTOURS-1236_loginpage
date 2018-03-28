@@ -147,13 +147,7 @@ public class StepDef {
        String actual=driver.findElement(By.cssSelector(".data_left>font>b")).getText();
        Assert.assertEquals(expected,actual);
 
-       File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-        try {
-            FileUtils.copyFile(screenshot, new File("/Users/kinjalpatel/IdeaProjects/mavenproject/abc.JPG"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
     }
 
