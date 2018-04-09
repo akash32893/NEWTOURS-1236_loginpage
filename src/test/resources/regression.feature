@@ -26,7 +26,7 @@ Feature: Check Login functionalty
       | type       | passengers | Departing From | Arriving In | Service Class  |
       | Round Trip | 2          | London         | New York    | Economy class  |
       | One Way    | 1          | London         | Paris       | Business class |
-      |One Way     |1           |New York        |London       | Business class  |
+      |One Way     |2          |New York        |London       | Business class  |
       
 
 
